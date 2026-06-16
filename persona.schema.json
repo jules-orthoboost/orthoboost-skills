@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OrthoBoost Persona",
+  "description": "Single source of truth for one OrthoBoost brand persona. SKILL.md is generated from this — never hand-edit the generated skill.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "displayName", "tagline", "personaNumber", "accentColor",
+    "sourceUrl", "positioning", "messagingBehavior", "patientBase",
+    "exampleClients", "voice", "typography", "imagery", "layout",
+    "visualTone", "iconography", "texture", "designPrinciples", "avoid",
+    "divergenceContract"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "kebab-case skill id, e.g. 'dr-house'. Becomes the skill folder name."
+    },
+    "displayName": { "type": "string", "description": "e.g. 'Dr. G. House'" },
+    "tagline": { "type": "string", "description": "Positioning line, e.g. 'Premium Family Ortho'" },
+    "personaNumber": { "type": "integer", "minimum": 1, "maximum": 11 },
+    "accentColor": { "type": "string", "pattern": "^#[0-9a-f]{6}$" },
+    "sourceUrl": { "type": "string", "format": "uri" },
+    "moodboardUrl": { "type": "string" },
+    "examplesUrl": { "type": "string" },
+    "positioning": { "type": "string" },
+    "messagingBehavior": { "type": "string" },
+    "patientBase": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "exampleClients": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Real client offices this persona was modeled to fit. The persona is NEVER one of these clients — it is a fictional character."
+    },
+    "voice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["leadsWith", "tone", "diction"],
+      "properties": {
+        "leadsWith": { "type": "string" },
+        "tone": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "diction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["use", "avoid"],
+          "properties": {
+            "use": { "type": "array", "items": { "type": "string" } },
+            "avoid": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "typography": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "fallbacks", "weights", "style"],
+      "properties": {
+        "primary": { "type": "string" },
+        "fallbacks": { "type": "array", "items": { "type": "string" } },
+        "weights": { "type": "string" },
+        "style": { "type": "string" }
+      }
+    },
+    "imagery": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "layout": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "visualTone": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "iconography": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "texture": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "designPrinciples": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "avoid": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "divergenceContract": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "HARD structural commitments that force this persona to look unmistakably different from the other ten. Soft descriptors ('modern, clean') are banned here — every field must be a concrete, checkable rule.",
+      "required": ["headlineType", "layout", "color", "imagery", "signature"],
+      "properties": {
+        "headlineType": { "type": "string" },
+        "layout": { "type": "string" },
+        "color": { "type": "string" },
+        "imagery": { "type": "string" },
+        "signature": { "type": "string", "description": "One line: what makes output unmistakably this persona." }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dr-rogers",
+  "displayName": "Dr. M. Rogers",
+  "tagline": "Family-Focused Community Ortho",
+  "personaNumber": 2,
+  "accentColor": "#38a169",
+  "sourceUrl": "https://jules-orthoboost.github.io/Brand-Personas/dr-m-rogers.html",
+  "moodboardUrl": "",
+  "examplesUrl": "",
+  "positioning": "Warm, welcoming, approachable. The local favorite that takes care of kids, teens, and parents. Community-oriented family practice that emphasizes trust, comfort, and multi-generational care.",
+  "messagingBehavior": "Leads with comfort, trust, and family care. Balanced budget messaging. Warm and friendly voice — like talking to a trusted neighbor. Multi-generational appeal, community-minded, never intimidating.",
+  "patientBase": [
+    "Families with kids and teens",
+    "Rural and suburban markets",
+    "Community-driven parents",
+    "Multi-generational families",
+    "Local community members"
+  ],
+  "exampleClients": ["Aloha", "Meason"],
+  "voice": {
+    "leadsWith": "Comfort, trust, and family care",
+    "tone": ["warm", "neighborly", "friendly", "caring"],
+    "diction": {
+      "use": ["neighbor", "community", "family", "welcome", "comfortable", "trust", "together", "local", "every age", "friendly", "here for you"],
+      "avoid": ["corporate", "elite", "luxury", "premium", "exclusive", "VIP", "cutting-edge jargon", "cold clinical terms", "intimidating medical language"]
+    }
+  },
+  "typography": {
+    "primary": "Nunito",
+    "fallbacks": ["Poppins", "Quicksand"],
+    "weights": "Regular to Bold",
+    "style": "Rounded, friendly, welcoming; warm without being childish"
+  },
+  "imagery": [
+    "Multi-generational families",
+    "Kids AND parents featured equally",
+    "Community events and local settings",
+    "Candid, genuine moments",
+    "Small-town / neighborhood vibes",
+    "Group shots, togetherness",
+    "Natural outdoor settings"
+  ],
+  "layout": [
+    "Balanced and welcoming",
+    "Not too tight, not too sparse",
+    "Friendly frames and borders",
+    "Photos take center stage",
+    "Warm, inviting negative space",
+    "Symmetrical or near-symmetrical"
+  ],
+  "visualTone": [
+    "Warm and neighborly",
+    "Trusted family friend",
+    "Supportive and caring",
+    "Community-minded",
+    "Generational appeal"
+  ],
+  "iconography": [
+    "Soft, rounded icons",
+    "Families, homes, hearts",
+    "Calendar / appointment symbols",
+    "Community symbols",
+    "Slightly more playful than clinical"
+  ],
+  "texture": [
+    "Soft, organic textures",
+    "Light wood grain",
+    "Subtle patterns (dots, gentle waves)",
+    "Paper / craft elements (sparingly)",
+    "Warm overlays"
+  ],
+  "designPrinciples": [
+    "Warmth in every element",
+    "Inclusive design (all ages)",
+    "Community connection visible",
+    "Trust-building through familiarity",
+    "Balanced professional and personal",
+    "Comfort emphasized"
+  ],
+  "avoid": [
+    "Too corporate/clinical",
+    "Cold color schemes",
+    "Overly polished/studio photography",
+    "Excluding any age group",
+    "Ultra-modern minimalism",
+    "Intimidating medical imagery",
+    "Aesthetic before/afters"
+  ],
+  "divergenceContract": {
+    "headlineType": "Nunito / Poppins rounded sans-serif, Regular–Bold — friendly, never childish. NEVER an elegant serif, never a stark modern sans.",
+    "layout": "Symmetrical or near-symmetrical; friendly frames/borders; photos at center stage; warm, generous negative space.",
+    "color": "Accent #38a169 (friendly green) in a warm, soft palette; avoid cold or stark schemes.",
+    "imagery": "Candid multi-generational moments — kids AND parents equally — in local/outdoor community settings; togetherness over studio polish.",
+    "signature": "The trusted neighbor — warm, community, all-ages-welcome. The deliberate opposite of corporate, clinical, or luxury."
+  }
+}

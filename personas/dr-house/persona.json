@@ -1,0 +1,93 @@
+{
+  "id": "dr-house",
+  "displayName": "Dr. G. House",
+  "tagline": "Premium Family Ortho",
+  "personaNumber": 5,
+  "accentColor": "#2f855a",
+  "sourceUrl": "https://jules-orthoboost.github.io/Brand-Personas/dr-g-house.html",
+  "moodboardUrl": "",
+  "examplesUrl": "",
+  "positioning": "Warm, modern, high-quality practice that serves both families and adults. Polished and capable, but not formal or exclusive. Premium comes from reputation, outcomes, patient experience, consistency, and expertise.",
+  "messagingBehavior": "Leads with family trust and clinical confidence. Highlights expertise, outcomes, comfort, convenience, and technology. Polished but approachable. Confident quality without pretension. Premium accessible — not exclusive.",
+  "patientBase": [
+    "Middle to upper-middle income families",
+    "Parents seeking a high-quality but accessible practice",
+    "Adults wanting Invisalign / aligner treatments",
+    "Suburban and growing urban markets"
+  ],
+  "exampleClients": ["Chang", "Kinser", "Team", "Bowman", "Uptown"],
+  "voice": {
+    "leadsWith": "Family trust and clinical confidence",
+    "tone": ["polished", "approachable", "confident", "warm-professional"],
+    "diction": {
+      "use": ["trusted", "expertise", "outcomes", "comfort", "confidence", "quality", "modern", "proven", "experienced team", "advanced technology", "convenient"],
+      "avoid": ["cheap", "discount", "deal", "budget", "lowest price", "elite", "exclusive", "VIP", "luxury", "trendy slang", "cold clinical jargon"]
+    }
+  },
+  "typography": {
+    "primary": "Inter",
+    "fallbacks": ["Avenir", "Proxima Nova"],
+    "weights": "Regular to Semi-Bold",
+    "style": "Modern, professional, approachable; clear contemporary hierarchy"
+  },
+  "imagery": [
+    "Modern families of all ages",
+    "High-quality, professional photography",
+    "Natural settings and modern clinic shots",
+    "Before/after with quality results",
+    "Balance of lifestyle and clinical",
+    "Genuine smiles and confidence",
+    "Technology shown in a supportive role"
+  ],
+  "layout": [
+    "Modern, balanced design",
+    "Professional but warm spacing",
+    "Quality imagery featured prominently",
+    "Contemporary grid systems",
+    "Clean, organized sections",
+    "Polished without being sterile"
+  ],
+  "visualTone": [
+    "Quality without pretension",
+    "Warm professionalism",
+    "Modern family-focused",
+    "Confident and capable",
+    "Accessible premium"
+  ],
+  "iconography": [
+    "Modern line icons",
+    "Quality indicators",
+    "Family and technology symbols",
+    "Professional but friendly",
+    "Contemporary style"
+  ],
+  "texture": [
+    "Clean, modern textures",
+    "Subtle professional finishes",
+    "Quality materials suggested",
+    "Warm, inviting overlays",
+    "Avoid harsh or cold textures"
+  ],
+  "designPrinciples": [
+    "Quality visible throughout",
+    "Modern family appeal",
+    "Professional warmth",
+    "Technology as enhancer",
+    "Outcomes emphasized",
+    "Accessible premium feel"
+  ],
+  "avoid": [
+    "Budget or discount messaging",
+    "Overly clinical/cold aesthetics",
+    "Exclusive or intimidating feel",
+    "Trendy or gimmicky design",
+    "Ultra-minimalist coldness"
+  ],
+  "divergenceContract": {
+    "headlineType": "Inter / Avenir Semi-Bold sans-serif — modern and clean. NEVER serif, never rounded-playful.",
+    "layout": "Contemporary balanced grid; one quality photo featured prominently; organized sections with warm (not tight, not sparse) spacing.",
+    "color": "Accent #2f855a (premium green) on white / light-neutral ground; warm, never cold or stark.",
+    "imagery": "Polished professional photography of modern families AND adults; genuine smiles; before/after with quality results; tech in a supporting role.",
+    "signature": "Polished modern family practice — premium that feels accessible. Reads as 'quality you can trust', never 'cheapest' and never 'exclusive/VIP'."
+  }
+}

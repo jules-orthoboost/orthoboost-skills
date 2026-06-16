@@ -1,0 +1,102 @@
+{
+  "id": "dr-kardashian",
+  "displayName": "D. K. Kardashian",
+  "tagline": "Luxury Wellness Practice",
+  "personaNumber": 7,
+  "accentColor": "#9f7aea",
+  "sourceUrl": "https://jules-orthoboost.github.io/Brand-Personas/d-k-kardashian.html",
+  "moodboardUrl": "",
+  "examplesUrl": "",
+  "positioning": "Spa-like, premium, elevated holistic care. High-end experience without spiritual overtones. Luxury wellness practice where the experience is the product — refined, serene, premium care as self-care.",
+  "messagingBehavior": "Leads with comfort, experience, and premium care. Refined, serene, elevated. Spa-like tranquility meets premium healthcare. Emphasize experience, comfort, and premium service. Never rushed, never budget-conscious, never apologetic about luxury.",
+  "patientBase": [
+    "Adults 30–65",
+    "Premium market consumers",
+    "Cosmetic and wellness-minded patients",
+    "High-income professionals",
+    "Experience-focused individuals"
+  ],
+  "exampleClients": ["Renew"],
+  "voice": {
+    "leadsWith": "Comfort, experience, and premium care",
+    "tone": ["refined", "serene", "elevated", "unhurried"],
+    "diction": {
+      "use": ["experience", "serene", "refined", "elevated", "wellness", "self-care", "tranquil", "curated", "restorative", "indulgent", "considered"],
+      "avoid": ["deal", "discount", "budget", "affordable", "cheap", "fast", "quick", "hurry", "limited time", "act now", "clinical", "casual slang"]
+    }
+  },
+  "typography": {
+    "primary": "Playfair Display",
+    "fallbacks": ["Cormorant", "Brandon Grotesque", "Futura"],
+    "weights": "Light to Regular (refined elegance)",
+    "style": "Sophisticated, upscale, minimal; luxurious spacing and restraint"
+  },
+  "imagery": [
+    "Spa-like environments",
+    "Luxury wellness settings",
+    "Serene, peaceful spaces",
+    "High-end interior design",
+    "Softly lit, tranquil scenes",
+    "Premium materials visible",
+    "Wellness as lifestyle",
+    "No clinical imagery"
+  ],
+  "layout": [
+    "Generous white space (luxury of space)",
+    "Minimal, refined layouts",
+    "Elegant asymmetry",
+    "Premium material suggestions",
+    "Spa-like serenity in design",
+    "High-end editorial style",
+    "Breathing room essential"
+  ],
+  "visualTone": [
+    "Refined and serene",
+    "Luxury wellness",
+    "Premium experience",
+    "Spa-like tranquility",
+    "Elevated self-care",
+    "Exclusive without cold"
+  ],
+  "iconography": [
+    "Minimal, elegant icons",
+    "Spa / wellness symbols",
+    "Luxury indicators",
+    "Refined line work",
+    "Subtle, understated",
+    "Premium aesthetic markers"
+  ],
+  "texture": [
+    "Luxury materials (silk, linen, marble)",
+    "Soft, premium textures",
+    "Spa-like elements",
+    "Refined natural materials",
+    "Subtle, high-end finishes",
+    "Avoid busy or harsh textures"
+  ],
+  "designPrinciples": [
+    "Experience is everything",
+    "Luxury through restraint",
+    "Premium materials and space",
+    "Spa-like serenity",
+    "Elevated wellness",
+    "Never rushed or busy",
+    "Exclusive comfort"
+  ],
+  "avoid": [
+    "Budget or discount messaging",
+    "Clinical/medical aesthetics",
+    "Busy or cluttered layouts",
+    "Playful or casual tone",
+    "Overly spiritual imagery",
+    "Sales pressure",
+    "Anything rushed or hectic"
+  ],
+  "divergenceContract": {
+    "headlineType": "Playfair Display / Cormorant elegant serif, Light–Regular — luxurious spacing and restraint. NEVER a rounded or playful sans.",
+    "layout": "Generous white space; elegant asymmetry; minimal refined editorial; breathing room is non-negotiable.",
+    "color": "Accent #9f7aea (luxe lavender) in a muted, refined, spa-neutral palette; nothing loud or saturated.",
+    "imagery": "Spa-like, softly lit, serene environments with premium materials (silk, linen, marble). NO clinical imagery, ever.",
+    "signature": "Luxury wellness spa — the experience IS the product. Unhurried and refined; never budget, never clinical, never rushed."
+  }
+}

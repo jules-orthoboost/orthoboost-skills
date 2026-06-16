@@ -1,0 +1,13 @@
+{
+  "name": "orthoboost-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OrthoBoost brand personas as installable Claude skills, generated from a single JSON source of truth.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate.mjs",
+    "test": "node scripts/test-divergence.mjs",
+    "check": "npm run build && npm run test"
+  },
+  "license": "UNLICENSED"
+}
