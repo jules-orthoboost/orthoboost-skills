@@ -12,9 +12,14 @@ files under `skills/` are **generated** — never hand-edit them.
 
 ## Install
 
+Copy the skill folders into your personal skills directory:
+
 ```bash
-claude skills install github:jules-orthoboost/orthoboost-skills
+cp -r skills/* ~/.claude/skills/
 ```
+
+(A one-command GitHub/marketplace install is not wired up yet — that needs a
+`.claude-plugin/marketplace.json` + plugin manifest.)
 
 Then in any session:
 
